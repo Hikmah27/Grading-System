@@ -1,5 +1,6 @@
-var gradeAudio = new Audio("./audio/audio-")
-
+function stopMusic() {
+  location.reload
+}
 function checkScore() {
     // alert("I am working");
     var songFail = new Audio ("./audio/audio-Fail F9.mp3")
