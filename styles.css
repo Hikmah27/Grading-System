@@ -100,3 +100,9 @@ body{
   .box-bubbles main.eight:before{
     animation-delay: 6s;
   }
+
+  @media screen and (max-width: 768px) {
+    .student-info{
+      width: 100%;
+    }
+  }
